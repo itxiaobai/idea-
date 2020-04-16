@@ -32,3 +32,5 @@
 -Xmn   Java Heap Young区大小，不熟悉最好保留默认值；
 
 -Xss   每个线程的Stack大小，不熟悉最好保留默认值；
+
+
