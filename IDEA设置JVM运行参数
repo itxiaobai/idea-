@@ -1,4 +1,4 @@
-打开 IDEA 安装目录，看到有一个 bin 目录，其中有两个 vmoptions 文件，需针对不同的JDK进行配置：
+####打开 IDEA 安装目录，看到有一个 bin 目录，其中有两个 vmoptions 文件，需针对不同的JDK进行配置：
 
 32 位：idea.exe.vmoptions
 64 位：idea64.exe.vmoptions
@@ -32,5 +32,9 @@
 -Xmn   Java Heap Young区大小，不熟悉最好保留默认值；
 
 -Xss   每个线程的Stack大小，不熟悉最好保留默认值；
+
+##### 只设置某项目运行时JVM的参数：
+VM options中输入如.vmoptions文件中要修改参数的脚本内容：
+-Xms4096m -Xmx12288m -XX:MaxPermSize=512m
 
 
